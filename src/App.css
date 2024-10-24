@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/*.........Navigation bar Styles..........*/
+body {
+  background: url('public/bg2.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  min-height: 945px;
+}
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(177 167 167 / 33%);
+}
+.nav-link-style {
+  font-size: 16px;
+  color: #e5f4f7 !important;
+  font-weight: 700 !important;
+  font-family: "Rubik", sans-serif !important;
+  font-style: normal;
+  font-optical-sizing: auto;
+}
+.navbar-toggler-style {
+  background-color: #10bfda !important;
+}
+
+.tooltip-style {
+  background-color: #e3ed9c !important;
+  color: #222 !important;
+  box-shadow: 0px 0px 4px rgb(231, 222, 222);
+  opacity: 1 !important;
+} 
+
+a.active {
+  color: #10bfda !important;
+}
+
+.nav-item:hover .nav-link {
+  color: #10bfda !important;
+}
+
+
+/*...............card............*/
+
+.card-tile-style {
+  background: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.enroll-style {
+  cursor: pointer;
+  text-decoration: none !important;
+  padding-top: 15px;
+  color: #1367ef;
+  font-size: 15px;
+  font-weight: 400;
+}
+.nav-item:hover .user-hover{
+  color: #10bfda !important;
+}
+a.active .user-hover{
+  color: #10bfda !important;
+}
