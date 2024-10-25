@@ -37,6 +37,9 @@ To check container up & running command `docker ps`</br>
 Created a **server.js** file in the root of the React project directory for Express server scripts</br>
 In the same location created **dal.js** file for the Data Abstraction Layer(separates the data access logic from the business logic in an application) to write DB-related code.</br>
 
+To watch the code(nodemon) and run the server simultaneously in the same terminal I added **concurrently" in package.json and ran code by command</br>
+`npm run dev`
+
 ## Roadmap
 
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
