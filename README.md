@@ -10,7 +10,7 @@ At the end, the user can log out from the app.</br>
 This app is a perfect example model for beginner full-stack developers who are interested in learning more about MERN stack technologies. It has simple logic, and clear & concise coding. 
 
 ## How to Run
-I used **npx**(npm package runner tool) to create the React app</br>
+Used **npx**(npm package runner tool) to create the React app</br>
 
 `npx create-react-app <my-app>` </br>
  `cd <my-app>` </br>
@@ -22,7 +22,10 @@ Make sure you have Node.js and npm installed on your system. Install necessary p
 
 `npm install express cors mongodb jquery path`</br>
 
-I installed **nodemon**,  it monitors changes in the application and restarts the server.
+I installed **nodemon**,  it monitors changes in the application and restarts the server.</br>
+
+Downloaded **MongoDB** msi package from https://www.mongodb.com/try/download/community</br>
+and GUI for Mongo DB - **MongoDB Compass** from https://www.mongodb.com/try/download/compass
  
 
 ## Roadmap
