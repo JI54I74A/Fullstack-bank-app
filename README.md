@@ -46,13 +46,20 @@ To view the front-end part of the app open the browser client, Chrome in my case
 
 ## Roadmap
 
-Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
-Using specific API paths you can GET all restaurants data, GET a single restaurant by ID, POST a new restaurant, DELETE a restaurant by ID and PUT to update a restaurant by ID</br>
-**swagger** specifications are writing separatly in a file - **swagger.json** </br>
-To learn more about writing swagger specifications, please follow this link [Swagger Editor](https://editor.swagger.io/)</br>
-The Swagger documentation for project has created in http://localhost:4000/api-docs(given path for swagger) , where you can see all the GET,POST,DELETE & PUT tabs</br>
+MongoDB - Create, read, and update operations are done using Mongo queries. Used mongoClient for connecting. url default MongoDB port 27017  </br>
+Using specific API paths you can GET all data, user balance, deposit, and withdraw pages, create a new user, login for an already existing user, and logout</br>
+To learn more about Mongo queries, please follow this link https://www.mongodb.com/docs/manual/reference/method/db.collection.findOneAndUpdate</br>
+
+React hooks used - useState, use effect, useNavigate</br>
+context used for data sharing and <userProvider></br>
+props used to share data from parent to child component</br>
+condition used in navbar for displaying and hiding login and logout tab</br>
+routing</br>
+
+The server used libraries - cors, path, and dal file</br>
+express.static for creating build directory</br>
 There is a button for 'Try It Out' and and we can execute the API and see the responses. </br>
-**swagger** is a very helpful tool for designing, building, documenting, and consuming RESTful web services
+
 ## License
 MIT License
 
