@@ -4,10 +4,10 @@ This is an online banking application developed using MERN technology stack, pre
 - **Express & Node.js** used for server-side scripting, handles HTTP requests, defines routes, and manages middleware for processing requests and responses - `Middle/Application layer`
 - **MongoDB** serves as the database for storing and retrieving data. It's a NoSQL document-oriented db with flexible and scalable storage. Data is stored in JSON object-like format - `Database layer`</br>
 
-This project is a part of MITxPro's MERN stack development course and by developing this project I learned in-depth knowledge related to the above technologies
-Fullstack-Banking-Application is a simple bank app where people can log in and view their balance, also deposit and withdraw money. If the user is new, they can create their own new account.
-At the end user can log out from the app.
-This app is a perfect example model for people who are interested in learning MERN stack technologies - simple logic, clear & concise coding 
+This project is a part of MITxPro's MERN stack development course and by developing this project I learned in-depth knowledge related to the MERN stack technologies.</br>
+Fullstack-Banking-Application is a simple bank app where people can log in and view their balance, also deposit and withdraw money. If the user is new, they can create their new account.
+At the end, the user can log out from the app.</br>
+This app is a perfect example model for beginner full-stack developers who are interested in learning more about MERN stack technologies. It has simple logic, clear & concise coding 
 
 This is a Express Restaurant app, generating and documenting API using Swagger for all the CRUD operations.
 Swagger Specification/OpenAPI Specification is an API description format for REST APIs. An OpenAPI file allows you to describe your entire API, including:</br>
