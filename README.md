@@ -27,7 +27,7 @@ I installed **nodemon**,  it monitors changes in the application and restarts th
 Downloaded **MongoDB** msi package from https://www.mongodb.com/try/download/community</br>
 and GUI for Mongo DB - **MongoDB Compass** from https://www.mongodb.com/try/download/compass
  
-
+In this project I am running MongoDB inside a **Docker** container. Make sure that you have **Docker Desktop** in your system. Keep it open all the time. </br>
 ## Roadmap
 
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
