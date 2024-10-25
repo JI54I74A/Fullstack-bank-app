@@ -11,9 +11,12 @@ This app is a perfect example model for beginner full-stack developers who are i
 
 ## How to Run
 I used **npx**(npm package runner tool) to create the React app</br>
+
 `npx create-react-app <my-app>` </br>
  `cd <my-app>` </br>
- `npm start`</br>
+ `npm start` to execute the React app</br>
+Follow this link to understand more about creating a React app - https://create-react-app.dev/docs/getting-started
+ 
 
 In this excersise first you need to install 'node_modules' folder</br>
 `npm init`</br>
