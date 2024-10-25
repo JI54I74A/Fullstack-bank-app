@@ -30,7 +30,9 @@ and GUI for Mongo DB - **MongoDB Compass** from https://www.mongodb.com/try/down
 In this project, I am running MongoDB inside a **Docker** container. Make sure that you have **Docker Desktop** in your system. Keep it open all the time. </br>
 To create Docker Container run the below command in the terminal which has the app path</br>
 
-`docker run -p 27017:27017 --name <my-container-name> -d mongo`
+`docker run -p 27017:27017 --name <my-container-name> -d mongo`</br>
+
+To check container up & running command `docker ps`
 
 ## Roadmap
 
