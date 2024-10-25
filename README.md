@@ -10,10 +10,10 @@ At the end, the user can log out from the app.</br>
 This app is a perfect example model for beginner full-stack developers who are interested in learning more about MERN stack technologies. It has simple logic, and clear & concise coding. 
 
 ## How to Run
-I used **npx**(npm package runner tool) to create the React app
+I used **npx**(npm package runner tool) to create the React app</br>
 `npx create-react-app <my-app>` </br>
- cd <my-app> </br>
- npm start`</br>
+ `cd <my-app>` </br>
+ `npm start`</br>
 
 In this excersise first you need to install 'node_modules' folder</br>
 `npm init`</br>
