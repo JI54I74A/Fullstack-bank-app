@@ -10,6 +10,11 @@ At the end, the user can log out from the app.</br>
 This app is a perfect example model for beginner full-stack developers who are interested in learning more about MERN stack technologies. It has simple logic, and clear & concise coding. 
 
 ## How to Run
+I used `npx`(npm package runner tool) to create the React app
+`npx create-react-app <my-app>
+ cd <my-app>
+ npm start`
+
 In this excersise first you need to install 'node_modules' folder</br>
 `npm init`</br>
  then add libraries for **swagger**</br>
@@ -17,6 +22,7 @@ In this excersise first you need to install 'node_modules' folder</br>
  To run the code</br>
  `nodemon index.js`
 ## Roadmap
+
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
 Using specific API paths you can GET all restaurants data, GET a single restaurant by ID, POST a new restaurant, DELETE a restaurant by ID and PUT to update a restaurant by ID</br>
 **swagger** specifications are writing separatly in a file - **swagger.json** </br>
