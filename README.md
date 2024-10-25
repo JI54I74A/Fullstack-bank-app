@@ -1,8 +1,8 @@
 # Fullstack-Banking-Application
 This is an online banking application developed using MERN technology stack, pre-built based on JavaScript technologies consists of MongoDB, Express, React, and Node.js.
-- **React** used to create the client side/UI. React offers reusable UI components, manages the application state, handles rendering views & updates the UI - presentation layer
-- **Express & Node.js** used for server-side scripting, handles HTTP requests, defines routes, and manages middleware for processing requests and responses - middle/application layer
-- **MongoDB** serves as the database for storing and retrieving data. It's a NoSQL document-oriented db with flexible and scalable storage. Data is stored in JSON object-like format - database layer</br>
+- **React** used to create the client side/UI. React offers reusable UI components, manages the application state, handles rendering views & updates the UI - `Presentation layer`
+- **Express & Node.js** used for server-side scripting, handles HTTP requests, defines routes, and manages middleware for processing requests and responses - `Middle/Application layer`
+- **MongoDB** serves as the database for storing and retrieving data. It's a NoSQL document-oriented db with flexible and scalable storage. Data is stored in JSON object-like format - `Database layer`</br>
 
 This project is a part of MITxPro's MERN stack development course and by developing this project I learned in-depth knowledge related to the above technologies
 Fullstack-Banking-Application is a simple bank app where people can log in and view their balance, also deposit and withdraw money. If the user is new, they can create their own new account.
