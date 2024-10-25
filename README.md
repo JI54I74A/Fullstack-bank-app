@@ -40,6 +40,10 @@ In the same location created **dal.js** file for the Data Abstraction Layer(sepa
 To watch the code(nodemon) and run the server simultaneously in the same terminal I added package **concurrently** in package.json and ran code by command</br>
 `npm run dev`
 
+Code changes are detected and the server restarts & creates build, so no need to `run npm build` separately </br>
+To view the front-end part of the app open the browser client, Chrome in my case and paste the URL as `http://localhost:3001`, where 3001 is the port number I gave to the server to listen.
+
+
 ## Roadmap
 
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
@@ -63,9 +67,6 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-
-
-### `npm run build`
 
 
 
