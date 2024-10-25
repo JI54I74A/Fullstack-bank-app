@@ -22,14 +22,9 @@ Make sure you have Node.js and npm installed on your system. Install necessary p
 
 `npm install express cors mongodb jquery path`</br>
 
-I installed **nodemon**  it monitors changes in the application and restarts the server.
+I installed **nodemon**,  it monitors changes in the application and restarts the server.
  
 
-
- then add libraries for **swagger**</br>
- `npm install swagger-jsdoc swagger-ui-express express nodemon`</br>
- To run the code</br>
- `nodemon index.js`
 ## Roadmap
 
 Create,read,update,delete operations are doing using http GET,POST,DELETE & PUT </br>
