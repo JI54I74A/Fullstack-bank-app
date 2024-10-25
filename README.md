@@ -32,7 +32,10 @@ To create Docker Container run the below command in the terminal which has the a
 
 `docker run -p 27017:27017 --name <my-container-name> -d mongo`</br>
 
-To check container up & running command `docker ps`
+To check container up & running command `docker ps`</br>
+
+Created a **server.js** file in the root of the React project directory for Express server scripts</br>
+In the same location created **dal.js** file for the Data Abstraction Layer(separates the data access logic from the business logic in an application) to write DB-related code.</br>
 
 ## Roadmap
 
