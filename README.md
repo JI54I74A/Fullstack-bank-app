@@ -19,7 +19,9 @@ I used **npx**(npm package runner tool) to create the React app</br>
 Follow this link to understand more about creating a React app - https://create-react-app.dev/docs/getting-started
 
 Make sure you have Node.js and npm installed on your system. Install necessary packages using npm **express**, **cors**, **MongoDB**, **jQuery**, and **path** using npm.</br>
+
 `npm install express cors mongodb jquery path`</br>
+
 I installed **nodemon**  it monitors changes in the application and restarts the server.
  
 
