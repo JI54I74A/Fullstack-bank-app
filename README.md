@@ -15,11 +15,15 @@ I used **npx**(npm package runner tool) to create the React app</br>
 `npx create-react-app <my-app>` </br>
  `cd <my-app>` </br>
  `npm start` to execute the React app</br>
+ 
 Follow this link to understand more about creating a React app - https://create-react-app.dev/docs/getting-started
+
+Make sure you have Node.js and npm installed on your system. Install necessary packages using npm **express**, **cors**, **MongoDB**, **jQuery**, and **path** using npm.</br>
+'npm install express cors mongodb jquery path
+` 
  
 
-In this excersise first you need to install 'node_modules' folder</br>
-`npm init`</br>
+
  then add libraries for **swagger**</br>
  `npm install swagger-jsdoc swagger-ui-express express nodemon`</br>
  To run the code</br>
